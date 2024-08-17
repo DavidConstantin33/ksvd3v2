@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KONSAV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="head-success">
+    <h1 id="title">K O N S A V</h1>
+</div>
+
+<div class="thank--you">
+    <h1>Thank you!</h1>
+    <p>You will be the first to know about our launch,<br> and maybe you will get a special offer...</p>
+</div>
+
+<div class="social">
+    <p>Till then, here is our official Instagram account:</p>
+    <button id="instaIco"><img src="images/instaico.webp" alt="ico"></button>
+    <p>@konsav.ro</p>
+</div>
+
+<script>
+    const btn = document.getElementById('instaIco');
+    btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = 'https://www.instagram.com/konsav.ro';
+    });
+</script>
+</body>
+</html>
